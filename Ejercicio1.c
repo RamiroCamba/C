@@ -1,6 +1,6 @@
-#include <stdio.h>
-int main() {
+#include <stdio.h> // <--- This line is required for printf
 
+int main() {
   int x = 10;
   int *p;
   p = &x;
